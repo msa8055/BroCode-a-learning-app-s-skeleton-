@@ -5,7 +5,7 @@ from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
 app.secret_key = "mysecretkey123"
-
+ 
 # ---------------- FILE UPLOAD SETTINGS ----------------
 UPLOAD_FOLDER = "static/profile_pics"
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg"}
